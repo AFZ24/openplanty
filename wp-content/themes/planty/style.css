@@ -1,0 +1,21 @@
+/*
+Theme Name: Planty
+Template: kadence
+Author: Afaf
+Author URI: https://www.kadencewp.com/
+Description:
+Projet Openclassroom
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+.syne {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body * {
+   font-family: 'Syne', sans-serif;
+}
+
