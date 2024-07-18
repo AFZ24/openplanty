@@ -28,7 +28,7 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 add_filter( 'wp_nav_menu_items', 'ajout_menu', 10, 2 );
 function ajout_menu( $items, $args ) {
 	if (is_user_logged_in() ) {
-		$items .= '<li><a href="/wp-admin">Admin</a></li>';
+		$items .= '<li><a href="/Planty/wordpress/wp-admin/">Admin</a></li>';
 	}
 	return $items;
 }
