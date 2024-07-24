@@ -18,10 +18,28 @@ Updated: 2024-05-15 18:30:11
   font-family: "Syne", sans-serif;
   font-style: normal;
 }
-body * {
+body {
    font-family: 'Syne', sans-serif;
 }
 
+
+
+h2 {
+  font-size: 39px;
+  font-weight: 800;
+}
+
+@media (max-width: 600px){
+  h2 {
+    font-size: 20px;
+    font-weight: 400px;
+  }
+
+}
+
+h3 {
+  color: white;
+}
 .page-id-72 div#inner-wrap {
   background-color: #3b8e46;
 }
@@ -210,7 +228,7 @@ a:hover.wp-block-button__link.has-theme-palette-9-color.has-theme-palette-4-back
 }
 
 
-img.wp-image-66 {
+img.wp-image-448 {
   background-image: url(http://localhost/Planty/wordpress/wp-content/uploads/2024/07/Group-3-1.png);
   background-repeat: no-repeat;
   background-position: right;
